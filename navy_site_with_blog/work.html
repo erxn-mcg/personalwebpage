@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Your Name — Things I’ve done</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <a class="brand" href="index.html">Your Name</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" data-nav>Home</a>
+      <a href="about.html" data-nav>About</a>
+      <a href="work.html" data-nav>Things I’ve done</a>
+      <a href="blog/index.html" data-nav>Blog</a>
+      <a href="media.html" data-nav>Media</a>
+    </nav>
+  </header>
+
+  <main class="container flow">
+    <h1>Things I’ve done</h1>
+    <p class="lead">A selection of projects. Add GitHub links, write-ups, or live demos.</p>
+    <section class="grid">
+      <article class="project card">
+        <h3>Project Title</h3>
+        <p>One-liner description of what it is and why it matters.</p>
+        <p class="meta">Tech/skills: HTML, CSS, JS</p>
+        <p>
+          <a class="button button--ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="text-link" href="#" target="_blank" rel="noreferrer">Live demo →</a>
+        </p>
+      </article>
+      <article class="project card">
+        <h3>Project Title</h3>
+        <p>Short description.</p>
+        <p class="meta">Tech/skills: …</p>
+        <p><a class="button button--ghost" href="#" target="_blank" rel="noreferrer">Read more</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Your Name</p>
+      <p>Built with plain HTML, CSS & JS</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
